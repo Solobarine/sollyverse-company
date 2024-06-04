@@ -2,28 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.app {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.hero {
+  background-image: url("/bgw1.jpg");
+  background-size: contain;
+}
+
+.services-items {
+  display: grid;
+  gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 22em));
+}
+
+.about-items {
+  display: grid;
+  gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 18em));
+  justify-content: center;
+}
+
+.active {
+  @apply text-green-600;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .hero {
+    background-image: url("/dark_bg1.jpg");
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media screen and (max-width: 640px) {
+  .services-items {
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  }
+
+  .about-items {
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  }
 }
 
 @layer utilities {
