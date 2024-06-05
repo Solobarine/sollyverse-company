@@ -1,3 +1,4 @@
+import Book from "@/components/book";
 import Product from "@/components/product";
 import products from "@/data/products";
 import React from "react";
@@ -20,6 +21,7 @@ const Products = () => {
           <Product product={product} key={index} />
         ))}
       </div>
+      <Book />
     </div>
   );
 };

@@ -20,7 +20,7 @@ const ContactForm = () => {
             <Field
               name="fullName"
               type="text"
-              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg"
+              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg dark:border-gray-600 dark:outline-gray-600 text-slate-800 dark:bg-gray-600 dark:text-white"
             />
             <ErrorMessage
               name="fullName"
@@ -33,7 +33,7 @@ const ContactForm = () => {
             <Field
               name="email"
               type="email"
-              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg"
+              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg dark:border-gray-600 dark:outline-gray-600 text-slate-800 dark:bg-gray-600 dark:text-white"
             />
             <ErrorMessage
               name="email"
@@ -46,7 +46,7 @@ const ContactForm = () => {
             <Field
               name="phoneNo"
               type="tel"
-              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg"
+              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg dark:border-gray-600 dark:outline-gray-600 text-slate-800 dark:bg-gray-600 dark:text-white"
             />
             <ErrorMessage
               name="phoneNo"
@@ -59,7 +59,7 @@ const ContactForm = () => {
             <Field
               name="subject"
               as="select"
-              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg"
+              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg dark:border-gray-600 dark:outline-gray-600 text-slate-800 dark:bg-gray-600 dark:text-white"
             >
               <option value="general questions">General Questions</option>
               <option value="request quote">Request Quote</option>
@@ -77,7 +77,7 @@ const ContactForm = () => {
             <Field
               name="message"
               as="textarea"
-              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg"
+              className="border-2 border-gray-300 outline-gray-300 px-2 py-1 rounded-lg dark:border-gray-600 dark:outline-gray-600 text-slate-800 dark:bg-gray-600 dark:text-white"
             />
             <ErrorMessage
               name="message"

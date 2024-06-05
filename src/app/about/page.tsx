@@ -1,8 +1,6 @@
 import React from "react";
 import aboutContent from "@/data/aboutContent";
 import Reason from "@/components/about/reason";
-import team from "@/data/team";
-import TeamMember from "@/components/teamMember";
 
 const About = () => {
   return (
@@ -19,7 +17,23 @@ const About = () => {
         </h4>
         <p className="text-center max-w-3xl">{aboutContent.description}</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="px-5 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2">
+        <img src="/mission.png" alt="" className="block mx-auto" />
+        <div className="mb-8">
+          <h2 className="font-semibold text-green-600 uppercase">
+            Our Mission
+          </h2>
+          <h4 className="text-3xl font-semibold">
+            Innovative Solutions, Driving Success
+          </h4>
+          <p className="leading-relaxed py-2">
+            At Sollyverse, our mission is to deliver exceptional web solutions
+            that drive business success and enhance user experiences. We are
+            committed to innovation, quality, and customer satisfaction.
+          </p>
+        </div>
+      </div>
+      <div className="px-5 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2">
         <img src="/people1.png" alt="" className="place-self-center" />
         <div>
           <h3 className="font-semibold text-green-600">
@@ -51,18 +65,35 @@ const About = () => {
           <Reason reason={reason} key={index} />
         ))}
       </div>
-      <div className="px-5 sm:px-10 py-16">
+      <div className="px-5 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2">
+        <img src="/team.png" alt="" className="block mx-auto" />
         <div>
-          <h3 className="font-semibold text-green-600">TEAM MEMBERS</h3>
+          <h3 className="font-semibold text-green-600">OUR TEAM</h3>
           <h4 className="text-3xl font-semibold">
-            Our Awesome Creative Team Member
+            Our Awesome Creative Team Members
           </h4>
+          <p className="leading-relaxed py-2">
+            Our team is a diverse group of talented professionals with expertise
+            in web development, design, and digital strategy. We are passionate
+            about what we do and dedicated to delivering outstanding results for
+            our clients.
+          </p>
         </div>
-        <div className="flex items-center justify-around gap-4 mt-6">
-          {team.results.map(
-            (member, index) =>
-              index < 4 && <TeamMember member={member} key={index} />
-          )}
+      </div>
+      <div className="px-5 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2">
+        <img src="/code.png" alt="" className="block mx-auto" />
+        <div>
+          <h3 className="font-semibold text-green-600">Why Choose Us?</h3>
+          <h4 className="text-3xl font-semibold">
+            Expert Solutions Tailored for Success.
+          </h4>
+          <p className="leading-relaxed py-2">
+            Choosing Sollyverse means partnering with a team that is committed
+            to your success. We offer personalized service, innovative
+            solutions, and a proven track record of delivering projects on time
+            and within budget. Let us help you achieve your digital goals and
+            take your business to the next level.
+          </p>
         </div>
       </div>
     </div>
