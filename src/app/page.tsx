@@ -14,7 +14,7 @@ const Home = () => {
             Partner with us to bring your vision to life. From innovative
             startups to established enterprises, our expert developers and
             designers craft bespoke software that drives success and accelerates
-            growth. Let's build something amazing together.
+            growth. Let us build something amazing together.
           </p>
         </div>
         <img

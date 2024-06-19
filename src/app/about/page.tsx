@@ -57,8 +57,8 @@ const About = () => {
             </p>
             <p>
               We prioritize client collaboration and transparency, ensuring
-              projects are delivered on time and within budget. Whether you're a
-              startup looking to innovate or an established enterprise seeking
+              projects are delivered on time and within budget. Whether you are
+              a startup looking to innovate or an established enterprise seeking
               optimization, our team is committed to delivering software
               solutions that make a tangible impact on your business.
             </p>

@@ -20,10 +20,10 @@ const ContactUs = () => {
     <div className="py-20">
       <h3 className="text-3xl text-center font-semibold">Get In Touch</h3>
       <p className="mb-6 text-center mt-3 max-w-5xl mx-auto">
-        Ready to take your project to the next level? We're here to help.
+        Ready to take your project to the next level? We are here to help.
         Whether you have questions, need a consultation, or want to discuss your
-        vision, our team is eager to connect with you. Reach out today and let's
-        start building something extraordinary together.
+        vision, our team is eager to connect with you. Reach out today and let
+        us start building something extraordinary together.
       </p>
       <div className="flex flex-wrap p-2 rounded-lg justify-center">
         <div className="px-4 py-8 rounded-lg basis-80 flex flex-col justify-between grow sm:grow-0 bg-green-300 dark:bg-green-800">
