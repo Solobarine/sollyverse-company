@@ -11,9 +11,11 @@ const Products = () => {
           Empower your business with powerful and customized web solutions.
         </h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus
-          tenetur numquam soluta exercitationem a dolor quia ex reiciendis vitae
-          architecto?
+          Explore our diverse range of innovative software products designed to
+          meet the evolving needs of modern businesses. Each product is crafted
+          with precision, offering seamless functionality, intuitive user
+          experiences, and robust performance. Discover how our solutions can
+          elevate your business to new heights.
         </p>
       </div>
       <div className="about-items py-20">

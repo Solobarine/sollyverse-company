@@ -3,10 +3,11 @@ const TeamManagement = () => {
     <div className="py-12 px-4 md:px-8 lg:px-16 bg-white dark:bg-slate-600">
       <div className="text-center md:text-left">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          A wider view in your team management
+          Inside Our Project Management Mastery
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-8">
-          Lorem ipsum sir dolor amet ipsum sir dolor amet ipsum sir dolor amet
+          Gain exclusive insights into our meticulous project management
+          approach.
         </p>
         <button className="bg-green-400 dark:bg-green-600 text-white px-6 py-2 rounded-md mb-8 md:mb-0">
           Learn more
@@ -24,7 +25,9 @@ const TeamManagement = () => {
             <h3 className="text-xl font-semibold">Project structure</h3>
           </div>
           <p className="text-gray-600 dark:text-gray-300">
-            Lorem ipsum sir dolor amet ipsum sir dolor amet ipsum sir dolor amet
+            Our robust project structure ensures clarity and efficiency at every
+            stage. We meticulously plan, organize, and execute each project
+            phase, providing a solid foundation for successful outcomes.
           </p>
         </div>
         <div className="bg-gray-100 dark:bg-slate-800 p-6 rounded-lg shadow-md">
@@ -38,7 +41,9 @@ const TeamManagement = () => {
             <h3 className="text-xl font-semibold">Timeline planning</h3>
           </div>
           <p className="text-gray-600 dark:text-gray-300">
-            Lorem ipsum sir dolor amet ipsum sir dolor amet ipsum sir dolor amet
+            Effective time planning is key to our success. We create detailed
+            timelines and schedules, allowing for precise delivery and the
+            flexibility to adapt to any changes or challenges that arise.
           </p>
         </div>
         <div className="bg-gray-100 dark:bg-slate-800 p-6 rounded-lg shadow-md">
@@ -52,7 +57,10 @@ const TeamManagement = () => {
             <h3 className="text-xl font-semibold">Team management</h3>
           </div>
           <p className="text-gray-600 dark:text-gray-300">
-            Lorem ipsum sir dolor amet ipsum sir dolor amet ipsum sir dolor amet
+            Our experienced leaders excel in team management, fostering
+            collaboration and maintaining clear communication. We ensure every
+            team member is aligned with project goals, maximizing productivity
+            and innovation.
           </p>
         </div>
         <div className="bg-gray-100 dark:bg-slate-800 p-6 rounded-lg shadow-md">
@@ -66,7 +74,9 @@ const TeamManagement = () => {
             <h3 className="text-xl font-semibold">Financial control</h3>
           </div>
           <p className="text-gray-600 dark:text-gray-300">
-            Lorem ipsum sir dolor amet ipsum sir dolor amet ipsum sir dolor amet
+            We prioritize time control to keep projects on track. By
+            continuously monitoring progress and adjusting as needed, we ensure
+            timely completion without compromising quality.
           </p>
         </div>
       </div>

@@ -25,11 +25,10 @@ const Footer = () => {
             />
             <h4 className="text-xl font-bold">Sollyverse</h4>
           </span>
-          <small className="">
-            Data Science such a so that service man techno software development.
-          </small>
-          <small className="block text-xs">
-            Seamless Crypto Transactions at your fingertips.
+          <small className="max-w-md block">
+            Ready to turn your ideas into reality? Contact us today to discuss
+            your next software project and discover how we can help you achieve
+            your business goals
           </small>
           <div className="grid py-4 gap-2">
             <span className="flex items-center gap-1">

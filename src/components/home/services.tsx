@@ -8,8 +8,8 @@ const Services = () => {
         Our Services
       </h3>
       <p className="text-center">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sed
-        possimus culpa?
+        Discover our comprehensive suite of services designed to meet all your
+        software development needs
       </p>
       <div className="services-items justify-center mt-6">
         {services.map((service, index) => (
