@@ -6,6 +6,18 @@ const products = [
     image: "/products/loaded_dash.png",
   },
   {
+    name: "RoadMaster",
+    description: "Car Dealership Api",
+    color: "#bd645f",
+    image: "/products/roadmaster_api.png",
+  },
+  {
+    name: "BiteExpress",
+    description: "Meals Ordering Platform",
+    color: "#ff9800",
+    image: "/products/bite_express.png",
+  },
+  {
     name: "Vibely",
     description: "Social Media",
     color: "#003285",
