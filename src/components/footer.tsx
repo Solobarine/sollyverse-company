@@ -84,7 +84,7 @@ const Footer = () => {
           <Link href="/">
             <FontAwesomeIcon icon={faDiscord} />
           </Link>
-          <Link href="/">
+          <Link href="https://github.com/solobarine">
             <FontAwesomeIcon icon={faGithubAlt} />
           </Link>
         </div>
